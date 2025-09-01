@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your repo URL if needed
-                git url: 'https://github.com/venkatgip/SpringBoot/new/master/SpringBoot.git', branch: 'master'
+                git url: 'https://github.com/venkatgip/SpringBoot/SpringBoot.git', branch: 'master'
             }
         }
         stage('Build') {
